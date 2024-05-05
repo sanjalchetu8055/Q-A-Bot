@@ -1,2 +1,5 @@
 # Q-A-Bot
 The bot provides responses pertaining to data scraped from links.
+Primarily, the bot is designed to sift through Google data harvested from various websites, employing an analytical.ipynb file for single website data analysis. Utilizing urllib.request and BeautifulSoup, the extracted data undergoes refinement, filtering out unwanted elements. The refined data is then archived into 'extended_final_augmented_qa_dataset'. Remarkably, the model is constructed sans NLP/LLM, opting instead for a deep learning methodology. Boasting around 800 rows, the dataset's shape is established. Model evaluation entails a validation set, with accuracy computed as the ratio of correct predictions to the total in the set. Notably, the model's accuracy suffers due to limited data availability and time constraints. Given more data, however, the model's accuracy would undoubtedly soar to greater heights.
+
+Refrencce : "https://medium.com/@mrmohit254/end-to-end-implementation-of-a-qa-bot-using-deep-learning-a3225e62bf22"
